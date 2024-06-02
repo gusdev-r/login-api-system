@@ -11,7 +11,7 @@ def email_validator(email):
         raise ValueError(validate_email("Please enter a valid e-mail address!"))
 
 
-class UserValidator(BaseUserManager):
+class UserManager(BaseUserManager):
 
     def create_user(self, email, first_name, last_name, password, **extra_fields):
         if email:
@@ -38,7 +38,6 @@ class UserValidator(BaseUserManager):
 
         if extra_fields.get("is_staff") is not True:
             raise ValueError(gettext_lazy("It's necessary that the staff field be true"))
-
         if extra_fields.get("is_superuser") is not True:
             raise ValueError(gettext_lazy("It's necessary that the super user field be true"))
 
@@ -46,3 +45,4 @@ class UserValidator(BaseUserManager):
             email, first_name, last_name, password, **extra_fields
         )
         user.save(using=self.db)
+        return user

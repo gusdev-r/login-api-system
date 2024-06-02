@@ -1,20 +1,34 @@
 
 G
 logindjango/settings.py,e\d\ed7641d9d0d1c17202900cb6e00a4ed5ad19b402
-4
-.env,3\c\3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 9
 	manage.py,3\1\3156ad13e4d695cd526bbb7b031016ecba842270
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 A
-migrate/models.py,7\f\7f217a8b4d916b42f8eb2985910c2fae8fc7752c
-F
-accounts/validators.py,2\b\2bd584e3b7eb80f044350e822eb541c04aab028d
-A
 accounts/tests.py,d\d\dd34e9e1474cddb9e5d2f2e680bd1cb27ebbab6e
 B
 accounts/models.py,6\1\61552fe05711cbaa3244c18deedf1d76e08d2649
-7
-LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
+S
+#accounts/migrations/0001_initial.py,5\7\5735eb649287d021b03efb36711dbf02c6fcb054
+O
+accounts/migrations/__init__.py,f\0\f02b86cdf2db7fb4387101b0c833b940158aad9d
+A
+accounts/views.py,b\a\ba7590f6f358542018b74d55cb2e357917bab56c
+A
+accounts/admin.py,a\3\a3360866a37a1817d2b7bff9b4bc78c975e3b58e
+D
+accounts/managers.py,2\9\294c422872a7a388e31be158bb7bea5d0b667819
+_
+/accounts/migrations/0002_alter_user_managers.py,2\d\2de6cc4d2092b2f02ee02389a9abe47876b0d150
+G
+accounts/serializers.py,5\1\51d40fd41b727f37c04a7895374afb671d5d954f
+@
+accounts/urls.py,6\0\605dfdd3d50bf83b921d6fff90cbd98052a71d27
+C
+logindjango/urls.py,5\4\541fc5c6a56e4fbcd1a007f986df04043618255c
+A
+accounts/utils.py,5\c\5c0efe28d55576dafd1201993083957f77417e53
+[
++accounts/migrations/0003_onetimepassword.py,8\2\828f1d58bc7e4b7172ce7a1220781a3d16030b1b
